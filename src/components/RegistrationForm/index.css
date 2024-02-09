@@ -1,0 +1,67 @@
+/* Write your CSS code here */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ea580c;
+  margin-bottom: 15px;
+}
+.form {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.success-img {
+  width: 40px;
+}
+.success-text {
+  color: #475569;
+  font-size: 12px;
+}
+.error-msg {
+  color: #ff0b37;
+  font-size: 12px;
+}
+.submit-btn {
+  background-color: #ea580c;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  width: 80px;
+}
+.input {
+  width: 100%;
+  color: #9aa5b1;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cbd2d9;
+
+  background-color: transparent;
+}
+.err-msg {
+  border-color: #ff0b37;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #fef2f4;
+}
+.label-el {
+  margin-bottom: 10px;
+  color: #475569;
+  font-size: 12px;
+}
